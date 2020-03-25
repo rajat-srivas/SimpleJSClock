@@ -1,0 +1,113 @@
+html {
+    text-align: center;
+    font-size: 10px;
+    background: #3E5151;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #DECBA4, #3E5151);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #DECBA4, #3E5151);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 2rem;
+    min-height: 100vh;
+    font-family: 'Pacifico', cursive;
+}
+
+p {
+    color: white;
+    font-size: 3rem;
+}
+
+.clock-div {
+    position: relative;
+    width: 20rem;
+    height: 20rem;
+    border: 4px solid yellow;
+    border-radius: 50%;
+    margin: 50px auto;
+    outline: whitesmoke;
+}
+
+.clock-div .time {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.clock-div .time1 {
+    transform: rotate(30deg);
+}
+
+.clock-div .time2 {
+    transform: rotate(60deg);
+}
+
+.clock-div .time3 {
+    transform: rotate(90deg);
+    color: yellow;
+}
+
+.clock-div .time4 {
+    transform: rotate(120deg);
+}
+
+.clock-div .time5 {
+    transform: rotate(150deg);
+}
+
+.clock-div .time6 {
+    transform: rotate(180deg);
+    color: yellow;
+}
+
+.clock-div .time7 {
+    transform: rotate(210deg);
+}
+
+.clock-div .time8 {
+    transform: rotate(240deg);
+}
+
+.clock-div .time9 {
+    transform: rotate(270deg);
+    color: yellow;
+}
+
+.clock-div .time10 {
+    transform: rotate(300deg)
+}
+
+.clock-div .time11 {
+    transform: rotate(330deg)
+}
+
+.clock-div .time12 {
+    color: yellow;
+}
+
+.clock-div .hand {
+    width: 5px;
+    height: 38%;
+    background: black;
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+    transform-origin: bottom;
+    transform: translateX(-50%);
+    z-index: 10;
+}
+
+.clock-div .hour {
+    height: 33%;
+}
+
+.clock-div .second {
+    background-color: white;
+    width: 2px;
+}
